@@ -10,14 +10,28 @@ import ReactDom from "react-dom";
 // }
 
 class App extends React.Component{
-    render(){
+    //change default constructur behaviour in Component class
+    constructor(props){
+        super(props)
+        this.state = { latitude: null, errorMessage:''}
+
         window.navigator.geolocation.getCurrentPosition(
-            (position)=> console.log(position),
-            (error) => console.log(error)
+            (position)=> {
+                //update state
+                this.setState({latitude:position.coords.latitude})
+            },
+            (error) => {
+                this.setState({ errorMessage:error.message})
+            }
         );
+    }
+
+    render(){
+        
         return(
         <div>
-hi
+            {this.state.latitude}
+            {this.state.errorMessage}
         </div>
         )
     }
