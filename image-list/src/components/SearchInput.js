@@ -2,14 +2,22 @@ import React from "react";
 
 class SearchInput extends React.Component {
     state = {entry:''}
+
+    // constructor(){ //changeably you can use arrow function  = (event) => for on onFormSubmit instead of onFormSubmit (event){
+    //     super();
+    //     this.onFormSubmit = this.onFormSubmit.bind(this);
+    // }
     // onInputChange(event){
     //     console.log(event.target.value);
     // }
-
+    onFormSubmit = (event) =>{
+        event.preventDefault();
+        console.log(this.state.entry);
+    }
     render(){
         return(
             <div className="ui segment">
-                <form className="ui form" action="">
+                <form onSubmit={this.onFormSubmit} className="ui form" action="">
                     <div className="field">
                         <div className="ui massive icon input">
                 <input type="text" 
