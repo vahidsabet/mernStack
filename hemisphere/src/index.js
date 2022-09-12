@@ -2,7 +2,6 @@ import React from "react";
 import ReactDom from "react-dom";
 import HemispherDisplay from "./HemisphereDisplay";
 
-
 class App extends React.Component{
 
 
