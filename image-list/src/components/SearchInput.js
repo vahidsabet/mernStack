@@ -12,7 +12,9 @@ class SearchInput extends React.Component {
     // }
     onFormSubmit = (event) =>{
         event.preventDefault();
-        console.log(this.state.entry);
+        this.props.onSearchSubmit(this.state.entry); // set props to send data to another children. when we are in the class based component.
+        // we refrence props object with 'this'
+        // console.log(this.state.entry);
     }
     render(){
         return(
