@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 d4fa366ada28749ea082775e6d743c3d5052b496 unknown <vahid.sabetumz@gmail.com> 1663160321 +0430	commit (initial): React router and nav
+d4fa366ada28749ea082775e6d743c3d5052b496 d4fa366ada28749ea082775e6d743c3d5052b496 unknown <vahid.sabetumz@gmail.com> 1663160360 +0430	Branch: renamed refs/heads/master to refs/heads/main
+d4fa366ada28749ea082775e6d743c3d5052b496 425d47de71d8392ef9d317c405db22d29f4b7126 unknown <vahid.sabetumz@gmail.com> 1663161000 +0430	commit: React Link component prevent default
+425d47de71d8392ef9d317c405db22d29f4b7126 e2d300c0a37df3fd2e0de3ffd563dc492319e057 unknown <vahid.sabetumz@gmail.com> 1663163527 +0430	commit: useNavigate instead of props.history
+e2d300c0a37df3fd2e0de3ffd563dc492319e057 838007cc603d64ae52e10fccfb3db06fd0f373e0 unknown <vahid.sabetumz@gmail.com> 1663168342 +0430	commit: Route Parameters in React dom v6
+838007cc603d64ae52e10fccfb3db06fd0f373e0 9112bab5f76287e541f9fac1527e61a0476a2645 unknown <vahid.sabetumz@gmail.com> 1663168540 +0430	commit: Switch load one route at a time
