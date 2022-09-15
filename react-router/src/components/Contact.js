@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Modal from "./Modal";
 
 
 const Contact = (props)=>{
@@ -8,6 +9,7 @@ const Contact = (props)=>{
         props.history.push('/about')
     },1000)*/
     return(<div>
+        <Modal />
             <div className="ui raised very padded text container segment" style={{marginTop:'80px'}}>
             <Link to="/vahid" className="ui header" >Vahid</Link>
             <p>Contact vahid</p>
