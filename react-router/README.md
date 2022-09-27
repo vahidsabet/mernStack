@@ -1,5 +1,6 @@
 # Getting Started with Create React App
 
+This project is updated for "Full Stack Web Development Bootcamp with MERN Stack Projects" course according to React v 18
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
