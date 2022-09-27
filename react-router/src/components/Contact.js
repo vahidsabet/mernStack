@@ -1,15 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import Modal from "./Modal";
 import { connect } from "react-redux";
 
 const Contact = ({cards})=>{
-    //console.log(props.cards);
-   /* setTimeout(()=>{
-        props.history.push('/about')
-    },1000)*/
     return(<div>
-        {/* <Modal /> */}
             {
                 cards.map(card => {
                     return(
@@ -23,10 +17,7 @@ const Contact = ({cards})=>{
                     )
                 })
             }
-            {/* <div className="ui raised very padded text container segment" style={{marginTop:'80px'}}>
-            <Link to="/M" className="ui header" >M</Link>
-            <p>Contact M</p>
-            </div> */}
+
         </div>
     )
 }
