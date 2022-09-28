@@ -3,6 +3,8 @@ import React, { createContext } from 'react';
 //when we create a context, we also create a provider to use in components to attach props
 export const ThemeContext = createContext();
 
+//Context provides a way to pass data through the component tree without having to pass props down manually at every level.
+
 //share data between component
 class ThemeContextProvider extends React.Component {
     state = {
