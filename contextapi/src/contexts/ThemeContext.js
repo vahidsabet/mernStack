@@ -1,6 +1,6 @@
 import React, { createContext } from 'react';
 
-
+//when we create a context, we also create a provider to use in components to attach props
 export const ThemeContext = createContext();
 
 //share data between component
@@ -19,8 +19,8 @@ class ThemeContextProvider extends React.Component {
 
     render() {
         return (
-            <ThemeContext.Provider>
-                
+            <ThemeContext.Provider value={{ ...this.state }}>
+                {this.props.children}
             </ThemeContext.Provider>
         );
     }
